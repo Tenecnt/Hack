@@ -2,7 +2,6 @@ import smtplib
 from email.mime.text import MIMEText
 def sendsth(sth):
 	user='dolabdream@qq.com'
-	pwd='iaxrupgaqzdjbhgi'
 	to='dolabdream@qq.com'
 	msg=MIMEText(sth)
 	msg['Subject']='Coming'
